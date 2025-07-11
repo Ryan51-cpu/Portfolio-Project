@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- for font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <!-- navbar -->
+    <nav>
+        <div class="left">
+            <a href="#home">
+                <img src="./Images/portfolio-image.png" alt="Logo">
+                <span>My Portfolio</span>
+            </a>
+        </div>
+        <div class="right">
+            <a href="#skills">
+                <i class="fa-solid fa-code"></i>
+                <span>Skills</span>
+            </a>
+
+            <a href="#project">
+                <i class="fa-solid fa-list-check"></i>
+                <span>Project</span>
+            </a>
+
+            <a href="#contact">
+                <i class="fa-solid fa-address-book"></i>
+                <span>Contact</span>
+            </a>
+
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Hi I'm  <span class="name">Ahmed Deedat Ryan</span></h1>
+                <h3>Welcome to my Portfolio</h3>
+                <p>I'm a passionate and creative developer who enjoys building websites, games, and tools that solve real problems. Whether it's designing clean layouts or coding fun projects in Python, I love turning ideas into reality.</p>
+                
+                <div class="links">
+                    <a href="https://github.com/Ryan51-cpu">
+                        <i class="fa-brands fa-github"></i>
+                        <span>Github</span>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>Linkedin</span> 
+                    </a>
+                </div>
+            </div>
+            <div class="headshot">
+                <img src="./Images/hero-man-1.png" alt="headshot">
+            </div>
+        </section>
+        <!-- Skills section -->
+        <section class="skill">
+            <h1>Skills</h1>
+            <div class="text">
+                These are the main technologies I use in my projects. I focus on writing clean, organized code and learning new tools to bring ideas to life.
+            </div>
+            <div class="cells">
+                <div class="cell">
+                    <img src="./Images/HTML5_logo_and_wordmark.svg.png" alt="html">
+                    <span class="name">HTML</span>
+                </div>
+                <div class="cell">
+                    <img src="./Images/CSS3_logo_and_wordmark.svg.png" alt="css">
+                    <span class="name">CSS</span>
+                </div>
+                <div class="cell">
+                    <img src="./Images/javascript-logo.png" alt="Javascript">
+                    <span class="name">Javascript</span>
+                </div>
+            </div>
+        </section>
+        <!-- contact part -->
+         <section class="contact">
+            <h2>Contact</h2>
+            <div class="group">
+                <div class="text">
+                    Want to chat about a project, give feedback, or just say hi? Feel free to send me a message using the form, and I’ll get back to you soon!
+                </div>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name Here" required>
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="Your Email Here" required>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols= "30" rows= "10" placeholder="Your Message" required ></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            </div>
+         </section>
+
+    </main>
+    <footer>
+        <div class="middle">
+            © 2025 All Rights Reserved
+        </div>
+    </footer>
+</body>
+</html>
